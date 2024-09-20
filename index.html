@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b42973c8c2.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="allImages/my-sign.jpg" class="logo">
+                <ul id="sidemanu">
+                    <li><a href="#header"></a>Home</li>
+                    <li><a href="#about"></a>About</li>
+                    <li><a href="#services"></a>Services</li>
+                    <li><a href="#portfolio"></a>Portfolio</li>
+                    <li><a href="#contact"></a>MyContact</li>
+                    <i class="fa-solid fa-xmark" onclick="closemanu()"></i>
+                    
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmanu()"></i>
+            </nav>
+            <div class="headerText">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Sunny</span> <br>Sumeria From Jammu... </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- about me ***************************** -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="allImages/sunny-0.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="aboutSize">About Me</h1>
+                    <p>I'm Sunny Sumeria from Jammu and Kashmir.I've done my b-tech degree from BIET Jhansi in UP .And
+                        As an aspiring Associate Software Developer with
+                        a robust academic background and a fervent drive for technological innovation, I
+                        am committed to utilizing my proficiency in multiple programming languages and web development
+                        technologies to create cutting-
+                        edge solutions . My dedication to mastering new tech trends and contributing to coding
+                        communities demonstrates a proactive
+                        approach to personal and professional growth. With a track record of developing applications
+                        from concept to deployment, I aim to
+                        leverage my skills to contribute meaningfully to the mission and vision of a forward-thinking IT
+                        organization.
+                    </p>
+
+                    <div class="myTitle">
+                        <p class="title-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="title-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="title-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="title-contents active-contents" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br> web designing/app Interfaces</li><br>
+                            <li><span>Web development</span><br> web app development</li><br>
+                            <li><span>App development</span><br> Building Android /iOS apps</li>
+                        </ul>
+
+                    </div>
+                    <div class="title-contents" id="Experience">
+                        <ul>
+                            <li><span>php Junior instructor</span><br> web designing/app Interfaces</li><br>
+                            <li><span>Web development</span><br> web app development</li><br>
+                            <li><span>App development</span><br> Building Android /iOS apps</li>
+                        </ul>
+
+                    </div>
+                    <div class="title-contents" id="Education">
+                        <ul>
+                            <li><span>2017-2018</span><br>I've done 10th with <b>75%</b> marks from <i>Ranbir Model
+                                    School</i></li><br>
+                            <li><span>2019-2020</span><br> I've done 12th with <b>65%</b> marks from <i>Ranbir Model
+                                    School</i></li><br>
+                            <li><span>2020-2024</span><br> I've done my B-Tech degree with <b>7.5 YGPA</b> from <i>BIET
+                                    Jhansi</i></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- *****************Services*********************** -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="aboutSize">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Repudiandae, quo rerum. Veniam dolor magnam a
+                        reiciendis eum. Omnis soluta, rerum sint itaque consequatur,
+                        delectus doloribus ea fuga, quasi impedit libero!</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Repudiandae, quo rerum. Veniam dolor magnam a
+                        reiciendis eum. Omnis soluta, rerum sint itaque consequatur,
+                        delectus doloribus ea fuga, quasi impedit libero!</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Repudiandae, quo rerum. Veniam dolor magnam a
+                        reiciendis eum. Omnis soluta, rerum sint itaque consequatur,
+                        delectus doloribus ea fuga, quasi impedit libero!</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- *************portfolio**************88 -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="aboutSize">My Work</h1>
+           <div class="work-list">
+                <div class="work">
+                    <img src="allImages/work-1.png">
+                   <div class="layer">
+                    <h3> Spotify clone </h3>
+                    <p>This app connects you with the talented people around the world and you can listen any song using this app 
+                        download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                   </div>
+                </div>
+                
+                <div class="work">
+                    <img src="allImages/sunny-2.png">
+                    <div class="layer">
+                        <h3>E-commerce app</h3>
+                        <p>This app connects you to buy everything from home and make you life easy 
+                            download it from play store.
+                        </p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>  
+                </div>
+                <div class="work">
+                    <img src="allImages/sunny-3.png">
+                    <div class="layer">
+                        <h3>Quiz app</h3>
+                        <p>The app connects the people around the world in which everyone can boost there knowledge 
+                            download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>  
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- *****************contact***************************** -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me </h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sunnysumeria203@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>6006972936</p>
+                    <div class="social-mediaIcons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="allImages/myCV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="your messages"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @Sumeria<i class="fa-solid fa-heart"></i> myPortfolio my recognizition</p>
+        </div>
+    </div>
+
+    <script>
+        var titleLinks = document.getElementsByClassName("title-links")
+        var titleContents = document.getElementsByClassName("title-contents")
+
+        function opentab(titlename) {
+            for (titleLink of titleLinks) {
+                titleLink.classList.remove("active-links");
+            }
+            for (titleContent of titleContents) {
+                titleContent.classList.remove("active-contents");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(titlename).classList.add("active-contents");
+        }
+    </script>
+    <script>
+        var sidemnu = document.getElementById("sidemanu");
+        function openmanu(){
+            sidemnu.style.right ="0"
+        }
+        function closemanu(){
+            sidemnu.style.right = "-200px"
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby8B5d2ZKK59kGv0nAfJ6MTjcjRYcJiCgwhyOHCN0ImnHAW_3ERzGKP3PN_DaIqKtp5/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML= ""
+                },5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
